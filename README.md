@@ -1,0 +1,1 @@
+My personal journey on javacripts starts today
