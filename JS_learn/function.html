@@ -9,19 +9,63 @@
 <body>
     <h1>JavaScript function</h1>
     <p id="demo"></p>
-
+<!-- creating a function -->
     <script>
         function myFunction(val){
             document.getElementById("demo").innerHTML = val * val;
         }
         myFunction(5)
     </script>
-
+<!-- function as an expression -->
     <script>
-        let result = function(){
-            alert("hello")
-        }
-        document.getElementById("demo").innerHTML = val * val;
+        var my_function = new Function("a","b","return a + b")
+        var x = my_function(5, 3);
+        document.getElementById("demo").innerHTML = x;
     </script>
+
+<!-- self involking function -->
+<script>
+    (function (){
+        alert("Hello! Welcome")
+    })()
+</script>
+
+<script>
+    function multiply(a,b){
+        return a*b
+    }
+    let y = multiply(4,4)
+    document.getElementById("demo").innerHTML = "The multiplication is " + y;
+</script>
+
+<!-- function as an object -->
+<script>
+    var body = "return Math.PI * rad *rad "
+    var circle = new Function("rad",body)
+    alert(circle(5))
+</script>
+
+<!-- Arrow Function -->
+<script>
+    const myfunc = (a,b,c) => {return a*b*c}
+    let product = myfunc(2,3,4)
+    document.getElementById("demo").innerHTML = "The product of the three numbers are " + product;
+</script>
+
+<!-- Generator function -->
+<script>
+    function* generateFunc(){
+        yield 1;
+        yield 2;
+        return 3;
+    }
+    let generator = generateFunc();
+    let one = generator.next();
+    let two = generator.next();
+    let three = generator.next();
+    alert(JSON.stringify(one));
+    alert(JSON.stringify(two));
+    alert(JSON.stringify(three));
+</script>
 </body>
 </html>
