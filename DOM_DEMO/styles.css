@@ -29,6 +29,7 @@ h2{
     background-size: 100%;
     align-items: center;
     padding: 10px 0;
+    font: arial;
 }
 
 #page-banner h1,
@@ -55,7 +56,7 @@ h2{
 }
 
 #movie-list li:hover{
-    border-color: #9361bf;
+    border-color: #E62D2D;
 }
 
 .delete{
