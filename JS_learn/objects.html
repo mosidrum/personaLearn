@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_objects_learn</title>
+</head>
+<body>
+    <h1>Creatiing JavaScript Objectcs</h1>
+    <p id="demo"></p>
+    <script>
+        var student = {
+            name : "Isaac",
+            age : "10 yrs",
+            studies : "Computer"
+        }
+        document.getElementById("demo").innerHTML = student.name + "is " + student.age + " and he studies " + student.studies;
+    </script>
+
+    <script>
+        var student = new Object();
+        student.name = "Mosi",
+        student.age = "15yrs",
+        student.place = "Akure";
+
+        document.getElementById("demo").innerHTML = student.name + " is a boy, he is " + student.age + " and he lives in " + student.place;
+    </script>
+</body>
+</html>
