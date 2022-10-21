@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f157625141.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <main>
+      <!-- navigation -->
+      <nav>
+        <h1>MeContacts</h1>
+        <div class="toggler">
+          <img src="images/icon-sun.svg" alt="" />
+        </div>
+      </nav>
+      <header>
+        <form class="search">
+          <input
+            type="text"
+            name="filterField"
+            class="form-control"
+            placeholder="filter contacts"
+          />
+        </form>
+        <div id="new">
+          <span class="fas fa-plus"></span>
+          <span>New</span>
+        </div>
+      </header>
+      <section class="empty-page">
+        <img src="images/illustration-empty.svg" />
+        <h2>There is nothing here.</h2>
+        <p>
+          Add a new contact by clicking the button <br />
+          and get started
+        </p>
+      </section>
+      <!-- contact box -->
+      <section class="contacts">
+        <ul class="contact-details"></ul>
+      </section>
+      <section class="wrapper hidden">
+        <div class="delete-comp"></div>
+      </section>
+      <section>
+        <div class="contact-card hidden"></div>
+      </section>
+      <!-- contact form (add and edit form)  -->
+      <section class="form-wrapper hidden">
+        <form class="contact-form"></form>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

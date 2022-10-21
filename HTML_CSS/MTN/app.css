@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size: 10px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.image-content{
+    background: url(./images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffff33;
+    background-size: cover;
+    image-rendering: ;
+    position: relative;
+    /* border: 3px solid white; */
+    width: 400px;
+    height: 300px;
+    display: flex;
+
+}
+.image-content img{
+    width: 100%;
+    height: 100%;
+
+}
+.box{
+    width: 55px;
+    height: 89px;
+    /* border: 3px solid rebeccapurple; */
+    justify-items: center;
+    margin-top: 205px;
+    margin-left: 10px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box h1{
+    font-size: 11px;
+    margin-top: px;
+
+}
+.box p{
+    background-color: black;
+    color: #ffff33;
+    padding: 2px;
+}
+.box small{
+font-size: 10px;
+}
+.box2{
+    margin-left: 9px;
+}
+.box3{
+    margin-left: 9px;
+}
+
+.content-holder{
+    background-color: #ffcd01;
+    width: 400px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content-holder .text{
+    opacity: ;
+    padding-left: 20px;
+    font-weight: bolder;
+    margin: 5px;
+    width: 60%;
+
+}
+.content-holder .text h1{
+    font-size: 19px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    overflow: auto;
+    width: 900px;
+}
+.content-holder .text h4{
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: 500px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+.content-holder .text p{
+    font-size: 13px;
+}
+.mtn-holder{
+    position: absolute;
+    left: 310px;
+    padding: 10px;
+}
+.mtn-holder h3{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid black;
+    border-radius: 50% / 50% ;
+    border-width: 3px;
+    font-weight: bolder;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 1.2rem;
+    letter-spacing: px;
+}
