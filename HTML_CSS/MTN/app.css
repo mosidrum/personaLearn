@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 body{
     background-color: white;
     font-size: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     height: 100vh;
@@ -44,20 +46,16 @@ body{
     text-align: center;
     color: black;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .box h1{
     font-size: 11px;
-    margin-top: px;
-
 }
 .box p{
     background-color: black;
     color: #ffff33;
-    padding: 2px;
 }
 .box small{
-font-size: 10px;
+font-size: 9px;
 }
 .box2{
     margin-left: 9px;
@@ -73,7 +71,7 @@ font-size: 10px;
     display: flex;
     align-items: center;
     position: relative;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 5px;
 }
 .content-holder .text{
     opacity: ;
@@ -85,28 +83,24 @@ font-size: 10px;
 }
 .content-holder .text h1{
     font-size: 19px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 1px;
     overflow: auto;
     width: 900px;
 }
 .content-holder .text h4{
     font-size: 14px;
-    letter-spacing: 3px;
     width: 500px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-
 }
-.content-holder .text p{
-    font-size: 13px;
+.content-holder .text small{
+    font-size: 10px;
 }
 .mtn-holder{
     position: absolute;
     left: 310px;
     padding: 10px;
+    top: 10px;
+    margin-right: 17px;
 }
 .mtn-holder h3{
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 3px solid black;
     border-radius: 50% / 50% ;
     border-width: 3px;
@@ -117,4 +111,5 @@ font-size: 10px;
     padding-bottom: 3px;
     font-size: 1.2rem;
     letter-spacing: px;
+    margin: 10px;
 }
